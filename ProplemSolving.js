@@ -7,4 +7,15 @@ console.log(evenOrOdd(7))
 console.log(evenOrOdd(4))
 
 
-//
+//Return the number (count) of vowels in the given string. --  We will consider a, e, i, o, u as vowels.
+
+function getCount(str) {
+    const vowelCharacters = ['a', 'i', 'e', 'u', 'o'];
+    var count = 0;
+    for (var i = 0; i < str.length; i++) {
+        if (vowels.includes(str[i])) {
+            count++;
+        }
+    }
+    return count;
+}
