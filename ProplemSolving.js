@@ -13,7 +13,7 @@ function getCount(str) {
     const vowelCharacters = ['a', 'i', 'e', 'u', 'o'];
     var count = 0;
     for (var i = 0; i < str.length; i++) {
-        if (vowels.includes(str[i])) {
+        if (vowelCharacters.includes(str[i])) {
             count++;
         }
     }
