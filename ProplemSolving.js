@@ -52,6 +52,7 @@ function digitalRoot(n) {
         return digitalRoot(result)
     }
 }
+console.log("# A Recursive function to return the digits sum of a number :")
 console.log( " 16       => " , digitalRoot(16))           //   7
 console.log( " 942      => " , digitalRoot(942))          //   6
 console.log( " 132189   => " , digitalRoot(132189))       //   6
