@@ -61,4 +61,23 @@ console.log( " 132189   => " , digitalRoot(132189))       //   6
 console.log( " 493193   => " , digitalRoot(493193))       //   2
 console.log("-----------------------------")
 
+/*
+Trolls are attacking your comment section!
+
+A common way to deal with this situation is to remove all of the vowels from the trolls' comments, neutralizing the threat.
+
+Your task is to write a function that takes a string and return a new string with all vowels removed.
+
+For example, the string "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
+*/
+
+function disemvowel(str) {
+    return str.replace(/[aeiouAEIOU]/gi, '');
+  }
+
+console.log("\n-----------------------------")
+console.log("# Function to return a string without it's vowel letters :")
+console.log(disemvowel("This website is for losers LOL!"))      //  Ths wbst s fr lsrs LL!
+console.log("-----------------------------")
+
 console.log("\nEnd")
