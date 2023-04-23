@@ -1,5 +1,7 @@
 console.log("Start")
+
 // Even Or Odd function :
+
 function evenOrOdd(number) {
   return number % 2 == 0? "Even" : "Odd"
 }
@@ -39,7 +41,6 @@ Examples
     493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
 */
 
-console.log("\n-----------------------------")
 function digitalRoot(n) {
     if(n < 10){
         return n
@@ -52,6 +53,7 @@ function digitalRoot(n) {
         return digitalRoot(result)
     }
 }
+console.log("\n-----------------------------")
 console.log("# A Recursive function to return the digits sum of a number :")
 console.log( " 16       => " , digitalRoot(16))           //   7
 console.log( " 942      => " , digitalRoot(942))          //   6
