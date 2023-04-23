@@ -58,4 +58,4 @@ console.log( " 132189   => " , digitalRoot(132189))       //   6
 console.log( " 493193   => " , digitalRoot(493193))       //   2
 console.log("-----------------------------")
 
-console.log("End")
+console.log("\nEnd")
